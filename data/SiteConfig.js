@@ -5,7 +5,7 @@ module.exports = {
   siteTitle: "SAP Inside Track Brisbane", // Site title.
   siteTitleAlt: "SAP Inside Track Brisbane", // Alternative site title for SEO.
   siteLogo:
-    "", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+    "/logos/sap-logo-svg.svg", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://sitbne.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/sitbne", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:

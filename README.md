@@ -70,7 +70,7 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed) by running from your CLI:
 
 ```sh
-gatsby new YourProjectName https://github.com/haysclark/gatsby-starter-casper
+gatsby new YourProjectName https://github.com/sitbne/sitbne-site-generator
 npm install # or yarn install
 npm run develop # or gatsby develop
 ```
@@ -80,12 +80,26 @@ Or you can fork the project, make your changes there and merge new features when
 Alternatively:
 
 ```sh
-git clone https://github.com/haysclark/gatsby-starter-casper YourProjectName # Clone the project
+git clone https://github.com/sitbne/sitbne-site-generator YourProjectName # Clone the project
 cd YourProjectname
 rm -rf .git # So you can have your own changes stored in VCS.
 npm install # or yarn install
 npm run develop # or gatsby develop
 ```
+
+Sometimes the project runs into weird caching issues following running the develop task.  To resolve this run the following commands to clear files from the cache and public folders
+```sh
+rm -r ./public/*
+rm -r ./.cache/*
+```
+
+## Building 
+Build the project using  
+```sh
+gatsby build
+```
+
+
 
 ## Configuration
 
@@ -164,7 +178,7 @@ Posts are authored using Markdown and include some optional YAML frontmatter dat
 
 ### Authors
 
-Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blodAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It IS possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
+Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blogAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It IS possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
 
 ## License
 
