@@ -1,11 +1,10 @@
 ---
 title: "Keen to Speak.."
 cover: "../images/Brisbane-Logo-Wheel-City.jpg"
-author: "katan"
+author: "jakob"
 category: "general"
 date: "2017-03-17"
 tags:
-    - stuff
     - other
 ---
 # Get in touch with us
