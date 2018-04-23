@@ -15,6 +15,7 @@ In this session we had three speakers discuss the topics of Workflow on the SAP 
 # Session Overview
 
 ## Session 1: Workflow on the SAP Cloud Platform
+### ( Jorg Thuijls )
 
 Tired of creating and maintaining the workflows your company has created over the years? 
 
@@ -24,6 +25,7 @@ In this presentation Jorg Thuijls creates a simple end-to-end example focussing 
 
 
 ## Session 2: Performance Considerations of the SAP Gateway
+### ( Katan Patel )
 
 In this talk Katan Patel will discuss some of the big do's and dont's in setting up an SAP Gateway service and web enabling your backend system to better support your UI applications. 
 
@@ -32,6 +34,7 @@ Key areas of focus will be design and the performance aspects that should be con
 You can access the slide deck <a href="https://sitbne.github.io/media/ODATA-Performance-Handling.pptx" download>here</a>
 
 ## Session 3: ABAPGit, Modernising ABAP Development 
+### ( Graham Robinson  )
 
 SAP Mentor Graham Robinson and Jakob Kjaer planned to do a joint presentation on abapGit. Graham presented the highlights from his SAP TechEd presentation on the topic. Jakob failed to launch. ;)
 

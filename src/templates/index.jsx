@@ -14,6 +14,7 @@ import BlogLogo from "../components/BlogLogo/BlogLogo";
 import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
+import PageBanner from "../components/PageBanner/PageBanner";
 import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
@@ -80,6 +81,7 @@ class IndexTemplate extends React.Component {
                 <div className="main-header-content inner">
                   <PageTitle text={config.siteTitle} />
                   <PageDescription text={config.siteDescription} />
+                  <PageBanner text={config.siteBanner} url={config.siteBannerUrl} />
                   <SocialMediaIcons
                     urls={config.siteSocialUrls}
                     color="currentColor"
