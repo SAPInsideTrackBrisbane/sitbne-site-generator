@@ -43,13 +43,13 @@ SAP Mentor Graham Robinson and Jakob Kjaer planned to do a joint presentation on
 2. The following video shows just how easy it is to install abapGit on your ABAP development system 
 
 <a href="https://www.youtube.com/embed/5TCBcJCafP4" target="_blank"><img src="https://img.youtube.com/vi/5TCBcJCafP4/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
+alt="How to install ABAPGit" width="480" height="360" border="10" /></a>
 
 The process for setting up SSL is fully documented in the [installation guide](http://docs.abapgit.org/guide-ssl-setup.html) 
 3. The next video shows how you can clone the abapGit repository to your local ABAP server. This will allow you to easily update it to the latest version at any time.
 
 <a href="https://www.youtube.com/embed/NbYJiQZeVZU" target="_blank"><img src="https://img.youtube.com/vi/NbYJiQZeVZU/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a> 
+alt="How to setup SSL for ABAPGit" width="480" height="360" border="10" /></a> 
 4. Now onto your own developments. This video shows how to get started.
 
 <a href="https://www.youtube.com/embed/5fmrbL5HKXI" target="_blank"><img src="https://img.youtube.com/vi/5fmrbL5HKXI/0.jpg" 

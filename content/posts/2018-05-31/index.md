@@ -7,10 +7,17 @@ category: "tech"
 tags:
     - SAPUI5
     - SAP Build
+    - SAP Business Client
+    - SAP Security
 ---
-In this session we plan to have three speakers discuss the topics from SAPUI5, SAP Build and one more topic soon to be finalised by a guest speaker
+In this session we plan to have three speakers discuss the topics from SAPUI5, SAP Build and the SAP Business Client
 
-To attend this event please register [here](https://www.eventbrite.com/e/sap-inside-track-brisbane-may-2018-tickets-45431764631) to reserve your place
+
+To attend this event please register via Eventbrite to reserve your place. **( Click on the image below to be redirected to the registration page )**
+
+
+[![Register Here for SITBNE](https://www.eventbrite.com.au/wp-content/themes/core/img/eventbrite-logo.svg)](https://www.eventbrite.com/e/sap-inside-track-brisbane-may-2018-tickets-45431764631)
+
 
 # Session Overview
 
@@ -24,6 +31,8 @@ The discovery stage of a project has the potential to cost or save a lot of mone
 Are you tired of reinventing the wheel over and over again? Ever caught yourself copying UI5 applications from one to another? If so, then I'm here to tell you: "There is a better way". Let me show you how you can do proper component reuse to the extend, where you avoid regression testing, when deploying new apps.
 
 
-## Session 3: To be announced shortly
-### ( Someone awesome!!! )
-We have a really great speaker lined up and they are finalising their topic of choice.   
+## Session 3: SAP Business Client 6.5 and Security
+### ( Colleen Hebbert - Independent SAP Security and GRC Consultant / SAP Mentor & SCN Moderator  )
+Would you like an End User to tell that they never knew SAP could look so pretty and that they might stop relying on their favourites? 
+
+Well you can actually do this, and it’s not related to HANA, Fiori or Cloud. And how about if I told you that it’s free!!!! We’ll you’re in luck – let’s discuss how security role design can improve the user experience.   
