@@ -13,6 +13,12 @@ tags:
 In this session we plan to have three speakers discuss the topics from SAPUI5, SAP Build and the SAP Business Client
 
 
+To attend this event please register via Eventbrite to reserve your place. **( Click on the image below to be redirected to the registration page )**
+
+
+[![Register Here for SITBNE](https://www.eventbrite.com.au/wp-content/themes/core/img/eventbrite-logo.svg)](https://www.eventbrite.com/e/sap-inside-track-brisbane-may-2018-tickets-45431764631)
+
+
 # Session Overview
 
 ## Session 1: SAP Build for Rapid Prototyping

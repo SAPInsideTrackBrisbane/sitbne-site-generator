@@ -6,12 +6,12 @@ module.exports = {
   siteTitleAlt: "SAP Inside Track Brisbane", // Alternative site title for SEO.
   siteLogo:
     "/logos/sap-logo-svg.svg", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://sitbne.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/sitbne.github.io", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
+  siteUrl: "https://sitbne.github", // Domain of your website without pathPrefix.
+  pathPrefix: ".io", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "A local grassroots community event organised where SCN members come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
   siteBanner:
-    "Upcoming event 31st May 2018",
+    "",
   siteBannerUrl:
     "/may-2018",
   siteCover:
