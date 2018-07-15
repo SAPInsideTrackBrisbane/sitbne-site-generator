@@ -11,9 +11,9 @@ module.exports = {
   siteDescription:
     "A local grassroots community event organised where SCN members come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
   siteBanner:
-    "",
+    "Register now for our upcoming event on September 5th",
   siteBannerUrl:
-    "/may-2018",
+    "/september-2018",
   siteCover:
     "/images/Brisbane-Logo-Very-Plain.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
