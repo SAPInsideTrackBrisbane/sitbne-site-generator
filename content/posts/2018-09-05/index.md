@@ -6,6 +6,9 @@ date: "2018-09-05"
 category: "tech"
 tags:
     - ABAP
+    - SAP Cloud Platform
+    - iOS
+    - UI5
 ---
 In this session we have talks lined up from Mike Doyle, Chris Rae (SAP Mentor) and Jason Lante. We'll be updating the site with further details as soon as they are available.
 
@@ -18,15 +21,16 @@ To attend this event please register via Eventbrite to reserve your place. **( C
 
 # Session Overview
 
-## Session 1: 
+## Session 1: What ABAP & UI5 devs need to know about the SAP Cloud Platform SDK for iOS
 ### ( Mike Doyle )
-Talk details to be confirmed soon..
+The SAP Cloud Platform SDK for iOS helps us to build native iOS apps that connect seamlessly to back-end systems like S/4HANA and ECC. Mike will
+talk us though what we need to know to help us get started.  For more details you should also check out his [SAP Community blog post](https://blogs.sap.com/2018/08/09/sdk-for-ios-your-quick-start-guide/) on the topic
 
-## Session 2: 
-### ( Chris Rae )
-Talk details to be confirmed soon..
 
+## Session 2: Modern ABAP Development Techniques
+### ( Jason Lante )
+Since 7.40, ABAP has been significantly improved to make your code more efficient. Jason's talk will help you learn how to write simplified ABAP code leveraging techniques from other programming languages.
 
 ## Session 3: 
-### ( Jason Lante )
+### ( Chris Rae )
 Talk details to be confirmed soon..
