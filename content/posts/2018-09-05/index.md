@@ -10,13 +10,9 @@ tags:
     - iOS
     - UI5
 ---
-In this session we have talks lined up from Mike Doyle, Chris Rae (SAP Mentor) and Jason Lante. We'll be updating the site with further details as soon as they are available.
+In this session we have talks lined up from Mike Doyle and Jason Lante. 
 
-
-To attend this event please register via Eventbrite to reserve your place. **( Click on the image below to be redirected to the registration page )**
-
-
-[![Register Here for SITBNE](https://www.eventbrite.com.au/wp-content/themes/core/img/eventbrite-logo.svg)](https://www.eventbrite.com/e/sap-inside-track-brisbane-september-2018-tickets-48105921105)
+Huge thanks to Chris Rae and the good folks at D'alRae Solutions for hosting us.  
 
 
 # Session Overview
@@ -31,6 +27,7 @@ talk us though what we need to know to help us get started.  For more details yo
 ### ( Jason Lante )
 Since 7.40, ABAP has been significantly improved to make your code more efficient. Jason's talk will help you learn how to write simplified ABAP code leveraging techniques from other programming languages.
 
-## Session 3: 
-### ( Chris Rae )
-Talk details to be confirmed soon..
+You can access the teched content "DEV262 – Evolution of the ABAP Programming Language - Karsten Bohlmann, Holger Janz & Thomas Jung" that Jason references in his talk <a href="https://sitbne.github.io/media/2018-09-05/E3_Presentation_ Evolution of the ABAP Programming Language" download>here</a>
+
+Another excellent reference are Horst Keller's blog posts with the Language News for each ABAP release.  Jason refers specifically to this classic post for the [ABAP Language News for Release 7.4](https://blogs.sap.com/2013/07/22/abap-news-for-release-740/). 
+
