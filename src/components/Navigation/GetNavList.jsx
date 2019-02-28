@@ -1,5 +1,5 @@
 // import FontIcon from "react-md/lib/FontIcons";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 
 function GetNavList(config) {
   const NavList = [
@@ -25,15 +25,17 @@ function GetNavList(config) {
     });
   }
 
+  /*
   NavList.push({ divider: true });
 
-  /*
+  
   NavList.push({
     primaryText: "About",
     // LeftIcon: <FontIcon>person</FontIcon>,
     component: Link,
     to: "/about/"
-  });*/
-  return NavList;
+  }); 
+  */
+    return NavList;
 }
 export default GetNavList;

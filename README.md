@@ -1,16 +1,25 @@
-# SitBNE Site Generator
+<div align="center">
+    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
+</div>
 
-A site generator for SITBNE built using [Gatsby](https://github.com/gatsbyjs/gatsby/), utilizing the popular [Casper (v1.4)](https://github.com/TryGhost/Casper/tree/1.4) theme authored by [Ghost.io](https://ghost.io/).  The project is based on [Gatsby Advanced Starter](https://github.com/Vagr9K/gatsby-advanced-starter) and has a lot on common with the [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter), but will evolve separately. In this project the single Casper CSS file has been carefully extracted into individual components with only minor tweaks.
+# Gatsby v2
+
+NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). The upgrade to v2 was mostly done by [@hnspn](https://github.com/hnspn) with a little help from the folks at [GatsbyCentral](https://www.gatsbycentral.com/).
+
+# Gatsby Casper Starter
+[![Code Climate](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/gpa.svg)](https://codeclimate.com/github/haysclark/gatsby-starter-casper)
+[![Issue Count](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/issue_count.svg)](https://codeclimate.com/github/haysclark/gatsby-starter-casper)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
+A blog starter for [Gatsby](https://github.com/gatsbyjs/gatsby/), utilizing the popular [Casper (v1.4)](https://github.com/TryGhost/Casper/tree/1.4) theme authored by [Ghost.io](https://ghost.io/).  The project is based on [Gatsby Advanced Starter](https://github.com/Vagr9K/gatsby-advanced-starter) and has a lot on common with the [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter), but will evolve separately. In this project the single Casper CSS file has been carefully extracted into individual components with only minor tweaks.
+
+This starter also serves as example for the [Gatsby-Pagination](https://github.com/infinitedescent/gatsby-pagination) library.
+
+[Demo website.](https://haysclark.github.io/gatsby-starter-casper/)
 
 ![Screenshot](docs/screenshot.png)
 
-## GatsbyJS V1
-
-This starter is based on GatsbyJS V1, which brings progressive web app features such as automatic code and data splitting (by route), prefetching, with service worker/offline-first support and PRPL pattern.
-
-More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-first-beta-release/).
-
-## Features From Gatsby Casper
+## Features
 
 * Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
 * Separate components for everything
@@ -42,7 +51,7 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 * Google Analytics support
 * NPM scripts for GitHub Pages deployment
 * Social features (uncomment code to use)
-  * Twitter tweet button 
+  * Twitter tweet button
   * Facebook share/share count
   * Google+ share button
   * easily to add more!
@@ -65,41 +74,26 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
   * gh-pages for deploying to GitHub pages
   * CodeClimate configuration file and badge
 
+NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
+
 ## Getting Started
 
 Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed) by running from your CLI:
 
 ```sh
-gatsby new YourProjectName https://github.com/sitbne/sitbne-site-generator
-npm install # or yarn install
-npm run develop # or gatsby develop
+gatsby new YourProjectName https://github.com/haysclark/gatsby-starter-casper
+gatsby develop
 ```
 
-Or you can fork the project, make your changes there and merge new features when needed.
-
-Alternatively:
+Alternatively, you can clone the repo or a fork of the repo and install it manually.
 
 ```sh
-git clone https://github.com/sitbne/sitbne-site-generator YourProjectName # Clone the project
+git clone https://github.com/haysclark/gatsby-starter-casper YourProjectName # Clone the project
 cd YourProjectname
-rm -rf .git # So you can have your own changes stored in VCS.
+rm -rf .git # Optional, you can leave the .git history for future rebasing
 npm install # or yarn install
 npm run develop # or gatsby develop
 ```
-
-Sometimes the project runs into weird caching issues following running the develop task.  To resolve this run the following commands to clear files from the cache and public folders
-```sh
-rm -r ./public/*
-rm -r ./.cache/*
-```
-
-## Building 
-Build the project using  
-```sh
-gatsby build
-```
-
-
 
 ## Configuration
 
@@ -178,7 +172,13 @@ Posts are authored using Markdown and include some optional YAML frontmatter dat
 
 ### Authors
 
-Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blogAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It IS possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
+Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blodAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It IS possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
+
+## Contributing
+
+👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+
+The project uses [Conventional Commits](https://conventionalcommits.org/) which are simple and easy to follow. In general, use your best judgment, and feel free to propose changes by creating an issue and then mention the issue in your pull request.
 
 ## License
 

@@ -48,7 +48,6 @@ class Navigation extends Component {
   render() {
     const { config, onClose } = this.props;
     const navItems = GetNavList(config);
-    //<SubscribeButton url={config.siteRss} /> //Removed from line 60
     return (
       <div>
         <div className="nav">
@@ -57,7 +56,7 @@ class Navigation extends Component {
             <span className="hidden">Close</span>
           </a>
           <ul>{navItems.map(mapToListParts)}</ul>
-              
+          <SubscribeButton url={config.siteRss} />
         </div>
         <span className="nav-cover" />
       </div>

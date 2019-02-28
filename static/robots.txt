@@ -2,4 +2,4 @@ User-agent: *
 Disallow: */tags/
 Disallow: */categories/
 
-sitemap: https://sitbne.github.io/sitemap.xml
+sitemap: https://haysclark.github.io/gatsby-starter-casper/sitemap.xml

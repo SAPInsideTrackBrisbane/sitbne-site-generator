@@ -103,10 +103,10 @@
 }
 
 .nav ul {
-    font-family:"Open Sans", sans-serif;
     padding: 90px 9% 5%;
     list-style: none;
     counter-reset: item;
+    font-family: "Open Sans", sans-serif;
 }
 
 .nav li::before {

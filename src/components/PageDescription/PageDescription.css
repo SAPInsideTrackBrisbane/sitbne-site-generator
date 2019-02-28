@@ -4,10 +4,9 @@
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
-    text-shadow: 2px 2px #000000;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .no-cover .page-description {

@@ -1,11 +1,11 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import AuthorThumbnail from "../AuthorThumbnail/AuthorThumbnail";
 import PostTags from "../PostTags/PostTags";
 import SiteConfig from "../../../data/SiteConfig";
 import AuthorLink from "../AuthorLink/AuthorLink";
-import PostFormatting from "../../layouts/PostFormatting/PostFormatting";
-import PostHeader from "../../layouts/PostHeader/PostHeader";
+import PostFormatting from "../../components/PostFormatting/PostFormatting";
+import PostHeader from "../../components/PostHeader/PostHeader";
 import PostDate from "../PostDate/PostDate";
 import AuthorModel from "../../models/author-model";
 import "./PostListing.css";
@@ -55,7 +55,7 @@ class PostListing extends React.Component {
               </section>
               <footer className="post-meta">
                 <AuthorThumbnail avatar={author.image} name={author.name} />
-                <AuthorLink url={`/author/${author.id}`} name={author.name} />
+                <AuthorLink url={`/author/${author.uid}`} name={author.name} />
                 <PostTags prefix=" on " tags={tags} />
                 <PostDate date={date} />
               </footer>

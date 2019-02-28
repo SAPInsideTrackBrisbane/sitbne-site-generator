@@ -31,7 +31,7 @@ In this talk Katan Patel will discuss some of the big do's and dont's in setting
 
 Key areas of focus will be design and the performance aspects that should be considered when undertaking any new project.
 
-You can access the slide deck <a href="https://sitbne.github.io/media/ODATA-Performance-Handling.pptx" download>here</a>
+You can access the slide deck <a href="/docs/ODATA-Performance-Handling.pptx" download>here</a>
 
 ## Session 3: ABAPGit, Modernising ABAP Development 
 ### ( Graham Robinson  )
@@ -68,4 +68,4 @@ alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 * Background mode - so you can automatically backup your work
 * [http://dotabap.org/](http://dotabap.org/) - Central place to find ABAP open source projects
 
-![ABAPGit](../images/abapgit_logo.svg)
+![ABAPGit](/images/abapgit_logo.svg)
