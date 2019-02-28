@@ -1,5 +1,6 @@
 import React from "react";
-import { ShareButtons } from "react-share";
+//import { ShareButtons } from "react-share";
+import { FacebookShareButton, GooglePlusShareButton, TwitterShareButton } from "react-share";
 import "./PostShare.css";
 
 const formatSiteUrl = (siteUrl, pathPrefix, path) =>
@@ -19,12 +20,12 @@ class PostShare extends React.Component {
     const post = postNode.frontmatter;
     const url = formatSiteUrl(config.siteUrl, config.pathPrefix, postPath);
 
-    const {
+    /* const {
       FacebookShareButton,
       GooglePlusShareButton,
       // PinterestShareButton,
       TwitterShareButton
-    } = ShareButtons;
+    } = ShareButtons; */
 
     return (
       <section className="share">

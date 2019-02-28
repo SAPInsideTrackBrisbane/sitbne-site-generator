@@ -1,17 +1,20 @@
 
 .page-banner {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5em;
-    font-weight: 400;
+    font-weight: bold;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
-    text-shadow: 2px 2px #000000;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .no-cover .page-banner {
     color: rgba(0, 0, 0, 0.5);
+}
+
+.page-banner:hover {
+    color: rgba(71, 70, 143, 0.8);
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -20,10 +23,6 @@
     animation: fade-in-down 0.9s both;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s;
-}
-
-.page-banner:hover{
-    color: #bbc7cc;    
 }
 
 /* ==========================================================================

@@ -1,18 +1,20 @@
+import { graphql } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
 import config from "../../data/SiteConfig";
-import Drawer from "../layouts/Drawer/Drawer";
+import Drawer from "../components/Drawer/Drawer";
 import Navigation from "../components/Navigation/Navigation";
-import SiteWrapper from "../layouts/SiteWrapper/SiteWrapper";
-import MainHeader from "../layouts/MainHeader/MainHeader";
-import MainNav from "../layouts/MainNav/MainNav";
+import SiteWrapper from "../components/SiteWrapper/SiteWrapper";
+import MainHeader from "../components/MainHeader/MainHeader";
+import MainNav from "../components/MainNav/MainNav";
 import BlogLogo from "../components/BlogLogo/BlogLogo";
 import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
 import Footer from "../components/Footer/Footer";
-import PaginatedContent from "../layouts/PaginatedContent/PaginatedContent";
+import PaginatedContent from "../components/PaginatedContent/PaginatedContent";
+import Layout from "../components/layout";
 
 class TagTemplate extends React.Component {
   state = {
@@ -51,55 +53,57 @@ class TagTemplate extends React.Component {
       limit,
       prev,
       next
-    } = this.props.pathContext;
+    } = this.props.pageContext;
     const authorsEdges = this.props.data.authors.edges;
     return (
-      <Drawer isOpen={this.state.menuOpen}>
-        <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
+      <Layout location={this.props.location}>
+        <Drawer isOpen={this.state.menuOpen}>
+          <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
 
-        {/* The blog navigation links */}
-        <Navigation config={config} onClose={this.handleOnClose} />
-        <SiteWrapper>
-          {/* All the main content gets inserted here */}
-          <div className="tag-template">
-            {/* The big featured header */}
-            <MainHeader className="tag-head" cover="../images/Brisbane-Logo-Wheel-City.jpg">
-              <MainNav className="clearfix" overlay>
-                <BlogLogo logo={config.siteLogo} title={config.siteTitle} />
-                <MenuButton
-                  navigation={config.siteNavigation}
-                  onClick={this.handleOnClick}
-                />
-              </MainNav>
-              <div className="vertical">
-                <div className="main-header-content inner">
-                  <PageTitle text={tag} />
-                  <PageDescription
-                    text={tag.description || `A ${total}-post collection`}
+          {/* The blog navigation links */}
+          <Navigation config={config} onClose={this.handleOnClose} />
+          <SiteWrapper>
+            {/* All the main content gets inserted here */}
+            <div className="tag-template">
+              {/* The big featured header */}
+              <MainHeader className="tag-head" cover={tag.featureImage}>
+                <MainNav>
+                  <BlogLogo logo={config.siteLogo} title={config.siteTitle} />
+                  <MenuButton
+                    navigation={config.siteNavigation}
+                    onClick={this.handleOnClick}
                   />
+                </MainNav>
+                <div className="vertical">
+                  <div className="main-header-content inner">
+                    <PageTitle text={tag} />
+                    <PageDescription
+                      text={tag.description || `A ${total}-post collection`}
+                    />
+                  </div>
                 </div>
-              </div>
-            </MainHeader>
+              </MainHeader>
 
-            <PaginatedContent
-              page={page}
-              pages={pages}
-              total={total}
-              limit={limit}
-              prev={prev}
-              next={next}
-            >
-              {/* PostListing component renders all the posts */}
-              <PostListing postEdges={nodes} postAuthors={authorsEdges} />
-            </PaginatedContent>
-          </div>
-          {/* The tiny footer at the very bottom */}
-          <Footer
-            copyright={config.copyright}
-            promoteGatsby={config.promoteGatsby}
-          />
-        </SiteWrapper>
-      </Drawer>
+              <PaginatedContent
+                page={page}
+                pages={pages}
+                total={total}
+                limit={limit}
+                prev={prev}
+                next={next}
+              >
+                {/* PostListing component renders all the posts */}
+                <PostListing postEdges={nodes} postAuthors={authorsEdges} />
+              </PaginatedContent>
+            </div>
+            {/* The tiny footer at the very bottom */}
+            <Footer
+              copyright={config.copyright}
+              promoteGatsby={config.promoteGatsby}
+            />
+          </SiteWrapper>
+        </Drawer>
+      </Layout>
     );
   }
 }
@@ -133,7 +137,7 @@ export const pageQuery = graphql`
     authors: allAuthorsJson {
       edges {
         node {
-          id
+          uid
           name
           image
           url

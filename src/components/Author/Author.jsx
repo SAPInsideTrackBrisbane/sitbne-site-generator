@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import "./Author.css";
 
 const Bio = props => {
@@ -51,7 +51,6 @@ const Website = props => {
 class Author extends React.Component {
   render() {
     const { author } = this.props;
-    console.log( "My props:" + this.props );
     if (author) {
       const { name, bio, location, website, avatar } = author;
       if (name && bio && location && website && avatar) {

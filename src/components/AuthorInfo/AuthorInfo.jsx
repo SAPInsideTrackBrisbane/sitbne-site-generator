@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import "./AuthorInfo.css";
-import AuthorMeta from "../../layouts/AuthorMeta/AuthorMeta";
+import AuthorMeta from "../../components/AuthorMeta/AuthorMeta";
 import AuthorLocation from "../AuthorLocation/AuthorLocation";
 import AuthorWebsite from "../AuthorWebsite/AuthorWebsite";
 import AuthorLink from "../AuthorLink/AuthorLink";
@@ -21,8 +21,8 @@ const Bio = props => {
 class AuthorInfo extends React.Component {
   render() {
     const { prefix } = this.props;
-    const { id, name, image, bio, url, location } = this.props.author;
-    const authorInfoUrl = prefix ? `${prefix}/${id}` : id;
+    const { uid, name, image, bio, url, location } = this.props.author;
+    const authorInfoUrl = prefix ? `${prefix}/${uid}` : uid;
     if (image) {
       return (
         <section className="author">
