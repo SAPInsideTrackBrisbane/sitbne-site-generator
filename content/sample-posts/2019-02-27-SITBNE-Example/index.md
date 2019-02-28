@@ -11,7 +11,11 @@ tags:
 
 ---
 
-It's a new year and time for another SITBNE.  So come join us on February 27th as we are planning to bring in two new speakers, Andrew & Matt. 
+It's a new year and time for another SITBNE.  So come join us on February 27th as we are planning to bring in two new speakers, Andrew & Matt. We are just
+working out a few details with them with regards to the content and as soon as the details are available we will update you here.
+
+To reserve yourself a place at the event, please book a place via our eventbrite event. <b>(Click on the giant eventbrite logo below to be redirected to it)</b>
+[![Register Here for SITBNE](https://www.eventbrite.com.au/wp-content/themes/core/img/eventbrite-logo.svg)](https://www.eventbrite.com/e/sap-inside-track-brisbane-february-2019-tickets-55209991571)
 
 # Session Overview
 

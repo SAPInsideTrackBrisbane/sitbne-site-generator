@@ -2,9 +2,9 @@
     <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
-# Gatsby v2
+# SitBNE Site Generator
 
-NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). The upgrade to v2 was mostly done by [@hnspn](https://github.com/hnspn) with a little help from the folks at [GatsbyCentral](https://www.gatsbycentral.com/).
+A site generator for SITBNE built using the Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). The upgrade to v2 was mostly done by [@hnspn](https://github.com/hnspn) with a little help from the folks at [GatsbyCentral](https://www.gatsbycentral.com/).
 
 # Gatsby Casper Starter
 [![Code Climate](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/gpa.svg)](https://codeclimate.com/github/haysclark/gatsby-starter-casper)
@@ -17,7 +17,7 @@ This starter also serves as example for the [Gatsby-Pagination](https://github.c
 
 [Demo website.](https://haysclark.github.io/gatsby-starter-casper/)
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](docs/sitbne-screenshot.png)
 
 ## Features
 
@@ -78,17 +78,10 @@ NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K
 
 ## Getting Started
 
-Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed) by running from your CLI:
+Clone the repo or a fork of the repo and install it manually.
 
 ```sh
-gatsby new YourProjectName https://github.com/haysclark/gatsby-starter-casper
-gatsby develop
-```
-
-Alternatively, you can clone the repo or a fork of the repo and install it manually.
-
-```sh
-git clone https://github.com/haysclark/gatsby-starter-casper YourProjectName # Clone the project
+git clone https://github.com/sitbne/sitbne-site-generator/ YourProjectName # Clone the project
 cd YourProjectname
 rm -rf .git # Optional, you can leave the .git history for future rebasing
 npm install # or yarn install
@@ -112,6 +105,8 @@ npm run develop # or gatsby develop
      siteDescription: "A Casper themed GatsbyJS stater based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
      siteCover: "/images/blog-cover.jpg", // Optional, the cover image used in header for home page.
      siteNavigation: true, // If navigation is enabled the Menu button will be visible
+     //siteBanner:"Register now for our upcoming event on February 27th", // Site Banner 
+     //siteBannerUrl: "/february-2019", //Path to page to navigate from Site Banner
      siteRss: "/rss.xml", // Path to the RSS file.
      siteRssAuthor: "Casper User", // The author name used in the RSS file
      // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
