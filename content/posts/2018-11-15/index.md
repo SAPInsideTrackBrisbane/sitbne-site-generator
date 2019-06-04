@@ -24,6 +24,9 @@ from the good old maroon side.  To celebrate everything he has done for this eve
 Graham captivated us all last time with his talk on ABAPGit.  With the most recent developments SAP decided that ABAP deserves a place in the cloud 
 and Graham is here to help explain what that means.  
 
+![](/images/robbo_abap_in_the _cloud.jpg_large.jpg)
+
+
 
 ## Session 2: Our journey into the world of CDS
 ### ( Surya Reddy )
