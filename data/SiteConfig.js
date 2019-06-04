@@ -13,8 +13,8 @@ module.exports = {
   siteCover:
     "/images/Brisbane-Logo-Very-Plain.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
     siteNavigation: true, // If navigation is enabled the Menu button will be visible
-    //siteBanner:"Register now for our upcoming event on February 27th", // Site Banner 
-    //siteBannerUrl: "/february-2019", //Path to page to navigate from Site Banner
+    siteBanner:"Register now for our upcoming event on June 27th", // Site Banner 
+    siteBannerUrl: "/june-2019", //Path to page to navigate from Site Banner
   siteRss: "", //"/rss.xml", // Path to the RSS file.
   siteRssAuthor: "", //"Casper User", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
