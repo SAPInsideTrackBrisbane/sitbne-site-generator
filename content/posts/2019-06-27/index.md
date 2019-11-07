@@ -9,22 +9,25 @@ tags:
 
 ---
 
-Sorry we've left you waiting so long for the latest session.  But to make it up to you we've lined up two fantastic speakers.  So come join us on June 27th for an awesome night. As we've only just managed
-to secure the speakers, we are just working through some details around their talks and as soon as any updated content is available, we will push it ut the sitbne site.
+Sorry we've left you waiting so long for the latest session.  But to make it up to you we've lined up two fantastic speakers.  So come join us on June 27th for an awesome night. We are just working through some details around their talks and as soon as any updated content is available, we will push it out the sitbne website.
 
 To reserve yourself a place at the event, please book a place via our eventbrite event. <b>(Click on the giant eventbrite logo below to be redirected to it)</b>
 [![Register Here for SITBNE](https://www.eventbrite.com.au/wp-content/themes/core/img/eventbrite-logo.svg)](https://www.eventbrite.com/e/sap-inside-track-brisbane-june-2019-tickets-62915557125)
 
 # Session Overview
 
-## Session 1: TBC 
-### ( Leigh Mason )
+## Session 1: Fiori Elements – Metadata Driven UI ( NON MASTER CLASS ) 
+### ( [Leigh Mason](https://twitter.com/Whatisthemason) )
 
-Leigh has a wealth of experience in the industry working on various projects on cutting edge deliverables. He's joining us from Sydney to give a presentation on a topic we are yet to know the subject of, although we're sure it will be exciting.
+Leigh has a wealth of experience in the industry working on various projects on cutting edge deliverables. He's joining us from Sydney to give a presentation on Fiori Elements.
 
-## Session 2: TBC
-### ( John )
-TBC 
+If you have not seen a Fiori Elements development from end to end ( OData Annotations on SAP Gateway using CDS Views to SAP Web IDE Fiori Elements Template ) this session will get you up and running with the basics.
+
+This is not a master class, we will cover a basic List Report use case so you can see how all the pieces hang together and if we have time introduce the concept of Data Control Language for data level security restriction.
+
+## Session 2: SAP & Chatbots
+### ( [Jon Gooding](https://twitter.com/jon_gooding) )
+Creating an interactive way to get data out of SAP and databases using chatbots.   
 
 # Sponsors
 
