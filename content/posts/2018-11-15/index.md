@@ -21,11 +21,11 @@ from the good old maroon side.  To celebrate everything he has done for this eve
 
 ## Session 1: ABAP in the cloud 
 ### ( Graham Robinson - SAP Mentor )
-Graham captivated us all last time with his talk on ABAPGit.  With the most recent developments SAP decided that ABAP deserves a place in the cloud 
-and Graham is here to help explain what that means.  
+Graham captivated us all last time with his talk on ABAPGit.  With the most recent developments SAP decided that ABAP deserves a place in the cloud and Graham is here to help explain what that means.  
 
 ![](/images/robbo_abap_in_the _cloud.jpg_large.jpg)
 
+![](/images/chris_and_james.jpg)
 
 
 ## Session 2: Our journey into the world of CDS
@@ -40,6 +40,9 @@ Huge huge thanks to Chris Rae and the good folks at D'alRae Solutions for hostin
 <img src="/images/sponsor logos/dalrae logo.png" alt="dalrae" width="200"/>
 
 ## Logical Star Consulting
-Also thanks to Logical Star Consulting for the pizza's
+Also thanks to Logical Star Consulting for the pizza's.
 
 <img src="/images/sponsor logos/Logical Star Consulting Logo.png" alt="Logical Star Consulting" width="200"/>
+
+Our resident Jodi provide the customary blessing before distributing the pizza
+![](/images/jodi_pizza.jpg_large.jpg)
