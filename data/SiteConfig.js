@@ -13,13 +13,13 @@ module.exports = {
   siteCover:
     "/images/Brisbane-Logo-Very-Plain.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
     siteNavigation: true, // If navigation is enabled the Menu button will be visible
-    //siteBanner:"Register now for our upcoming event on November 20th", // Site Banner 
-    //siteBannerUrl: "/november-2019", //Path to page to navigate from Site Banner
+    siteBanner:"Register now for our upcoming event on February 19th", // Site Banner 
+    siteBannerUrl: "/february-2020", //Path to page to navigate from Site Banner
   siteRss: "", //"/rss.xml", // Path to the RSS file.
   siteRssAuthor: "", //"Casper User", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
-  sitePaginationLimit: 10, // The max number of posts per page.
-  //googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
+  sitePaginationLimit: 5, // The max number of posts per page.
+  googleAnalyticsID: "UA-157133488-1", // GA tracking ID.
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
       "https://github.com/sitbne",
