@@ -30,9 +30,6 @@ Another excellent reference are Horst Keller's blog posts with the Language News
 
 One of the hightlights of Jason's talk was the [Text to ASCII Art Generator](http://patorjk.com/software/taag/) which has now set the benchmark for how all comments at the top of an ABAP routine should be written.
 
-<img src="/images/sitbne_ascii.png" alt="dalrae" width="200"/>
-
-
 # Sponsors
 Huge huge thanks to Chris Rae and the good folks at D'alRae Solutions for hosting us.
 
