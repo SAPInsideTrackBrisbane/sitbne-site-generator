@@ -8,13 +8,11 @@ module.exports = {
     "/logos/home.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://sitbne.github.", // sitbneDomain of your website without pathPrefix.
   pathPrefix: "io", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
-  siteDescription:
-    "A local grassroots community event organised where SCN members come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
-  siteCover:
-    "/images/Brisbane-Logo-Very-Plain.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+  siteDescription: "A local grassroots community event organised where SCN members come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
+  siteCover: "/images/Brisbane-Logo-Very-Plain.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
     siteNavigation: true, // If navigation is enabled the Menu button will be visible
-    siteBanner:"Register now for our upcoming event on February 19th", // Site Banner 
-    siteBannerUrl: "/february-2020", //Path to page to navigate from Site Banner
+    //siteBanner:"Register now for our upcoming event on February 19th", // Site Banner 
+    //siteBannerUrl: "/february-2020", //Path to page to navigate from Site Banner
   siteRss: "", //"/rss.xml", // Path to the RSS file.
   siteRssAuthor: "", //"Casper User", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
@@ -30,24 +28,15 @@ module.exports = {
   // Links to social profiles/projects you want to display in the navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-          url: "https://github.com/sitbne",
-      iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
-    },
-    {
-      label: "Twitter",
-        url: "https://twitter.com/search?q=sitbne",
-      iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
-    },
-    {
-      label: "Email",
-        url: "mailto:sitbne@gmail.com",
-      iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
-      }, {
           label: "Keen to Speak",
         url: "/keen-to-speak",
         iconClassName: "fa fa-microphone"
-      }
+    },
+    {
+      label: "Latest Event Details",
+      url: "/may-2020",
+      iconClassName: "fa fa-microphone"
+    }
   ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
