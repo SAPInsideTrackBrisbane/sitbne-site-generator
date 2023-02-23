@@ -3,75 +3,17 @@
 </div>
 
 # SitBNE Site Generator
-
-A site generator for SITBNE built using the Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). The upgrade to v2 was mostly done by [@hnspn](https://github.com/hnspn) with a little help from the folks at [GatsbyCentral](https://www.gatsbycentral.com/).
+A site generator for SITBNE built using the Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
 
 ![Screenshot](docs/sitbne-screenshot.png)
-
-## Features
-
-* Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-* Separate components for everything
-* High configurability:
-  * Site information
-  * Site social profiles
-  * Copyright information
-  * More!
-* Author segment
-  * Name
-  * Location
-  * Description
-  * Links
-  * Follow Me button
-  * Social profiles
-* Posts in Markdown
-  * Code syntax highlighting
-  * Embed YouTube videos
-  * Embed Tweets
-  * Pages support pagination
-  * Read More linked paginated pages  
-* Tags
-  * Separate page for posts under each tag
-  * Pages support pagination.
-* Categories (pages generated but not linked in theme)
-  * Separate page for posts under each category
-* Disqus support (needs to be uncommented)
-  * Notifications about new disqus comments
-* Google Analytics support
-* NPM scripts for GitHub Pages deployment
-* Social features (uncomment code to use)
-  * Twitter tweet button
-  * Facebook share/share count
-  * Google+ share button
-  * easily to add more!
-* SEO
-  * Sitemap generation
-  * robots.txt
-  * General description tags
-  * Schema.org JSONLD (Google Rich Snippets)
-  * OpenGraph Tags (Facebook/Google+/Pinterest)
-  * Twitter Tags (Twitter Cards)
-* RSS feeds
-* Loading progress for slow networks
-* Offline support
-* Web App Manifest support
-* Development tools
-  * ESLint for linting
-  * Prettier for code style
-  * Remark-Lint for linting Markdown
-  * write-good for linting English prose
-  * gh-pages for deploying to GitHub pages
-  * CodeClimate configuration file and badge
-
-NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
 
 ## Getting Started
 
 Clone the repo or a fork of the repo and install it manually.
 
 ```sh
-git clone https://github.com/sitbne/sitbne-site-generator/ YourProjectName # Clone the project
-cd YourProjectname
+git clone https://github.com/SAPInsideTrackBrisbane/sitbne-site-generator.git <YourProjectName> # Clone the project
+cd <YourProjectname>
 rm -rf .git # Optional, you can leave the .git history for future rebasing
 npm install # or yarn install
 npm run develop # or gatsby develop
@@ -94,8 +36,8 @@ npm run develop # or gatsby develop
      siteDescription: "A Casper themed GatsbyJS stater based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
      siteCover: "/images/blog-cover.jpg", // Optional, the cover image used in header for home page.
      siteNavigation: true, // If navigation is enabled the Menu button will be visible
-     //siteBanner:"Register now for our upcoming event on February 27th", // Site Banner 
-     //siteBannerUrl: "/february-2019", //Path to page to navigate from Site Banner
+     siteBanner:"Register now for our upcoming event on February 27th", // Site Banner 
+     siteBannerUrl: "/february-2019", //Path to page to navigate from Site Banner
      siteRss: "/rss.xml", // Path to the RSS file.
      siteRssAuthor: "Casper User", // The author name used in the RSS file
      // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
@@ -157,12 +99,6 @@ Posts are authored using Markdown and include some optional YAML frontmatter dat
 ### Authors
 
 Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blodAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It IS possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
-
-## Contributing
-
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
-
-The project uses [Conventional Commits](https://conventionalcommits.org/) which are simple and easy to follow. In general, use your best judgment, and feel free to propose changes by creating an issue and then mention the issue in your pull request.
 
 ## License
 
