@@ -20,7 +20,7 @@ module.exports = {
   googleAnalyticsID: "UA-157133488-1", // GA tracking ID.
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
-      "https://github.com/sitbne",
+      "https://github.com/SAPInsideTrackBrisbane",
       "https://twitter.com/search?q=sitbne",
       "mailto:sitbne@gmail.com"
   ],
@@ -41,7 +41,7 @@ module.exports = {
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
     label: "SAP Inside Track Brisbane", // Label used before the year
-    year: "2018", // optional, set specific copyright year or range of years, defaults to current year
+    year: "2023", // optional, set specific copyright year or range of years, defaults to current year
     url: "https://sitbne.github.io/" // optional, set link address of copyright, defaults to site root
   },
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
