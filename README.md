@@ -8,7 +8,7 @@ A site generator for SITBNE built using the Gatsby v2 fork of [gatsby-starter-ca
 ![Screenshot](docs/sitbne-screenshot.png)
 
 ## Getting Started
-This repo was built using Gatsby CLI version: 4.18.0 and Node version 18.14.2
+This repo was built using Gatsby CLI version: 5.7.0 and Node version 18.14.2
 
 Clone the repo or a fork of the repo and install it manually.
 
