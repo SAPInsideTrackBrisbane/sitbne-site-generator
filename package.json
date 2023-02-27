@@ -1,6 +1,6 @@
 {
   "name": "sitbne-sitegen",
-  "description": "SITBNE site generator based on GatsbyJS starter and was themed using the Casper theme from Ghost.",
+  "description": "SITBNE site generator based on GatsbyJS Casper theme starter from Ghost.",
   "version": "2.0.0",
   "author": "Katan Patel",
   "dependencies": {
