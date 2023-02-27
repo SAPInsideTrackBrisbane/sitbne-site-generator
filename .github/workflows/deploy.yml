@@ -20,10 +20,9 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-      - name: Set SSL Legacy Provider
-        run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
       - uses: enriikke/gatsby-gh-pages-action@v2
+        env:
+          NODE_OPTIONS: "--openssl-legacy-provider"
         with:
           access-token: ${{ secrets.GH_PAGES_TOKEN }}
           deploy-branch: master
