@@ -7,6 +7,7 @@
 				modules: false,
 				useBuiltIns: "usage",
 				shippedProposals: true,
+				"corejs": 3,
 				targets: {
 					browsers: [">0.25%", "not dead"],
 				},
