@@ -17,6 +17,10 @@ jobs:
           git config --global user.name "sitbne"
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Set Node Version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14.18.1        
       - name: Install dependencies
         run: |
           npm install
