@@ -23,7 +23,8 @@ jobs:
           node-version: 18.14.2        
       - name: Install dependencies
         run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
           npm install
       - name: Deploy
-        run: npm run deploy:ci
+        run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
+          npm run deploy:ci
