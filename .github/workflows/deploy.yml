@@ -24,4 +24,5 @@ jobs:
         with:
           access-token: ${{ secrets.GH_PAGES_TOKEN }}
           deploy-branch: master
+          deploy-repo: https://github.com/sitbne/sitbne.github.io
           gatsby-args: --prefix-paths 
