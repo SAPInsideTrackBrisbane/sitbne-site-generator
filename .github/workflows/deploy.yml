@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: GitHub Config
+        run: |
+          git config --global user.email "sitbne@gmail.com"
+          git config --global user.name "sitbne"
       - name: Checkout
         uses: actions/checkout@v2
       - name: Set Node Version
