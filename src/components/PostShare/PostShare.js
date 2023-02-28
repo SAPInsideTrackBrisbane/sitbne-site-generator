@@ -31,24 +31,6 @@ class PostShare extends React.Component {
               <span className="hidden">Facebook</span>
             </a>
           </FacebookShareButton>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <GooglePlusShareButton url={url}>
-            <a className="icon-google-plus" style={{ fontSize: "1.4em" }}>
-              <span className="hidden">Google+</span>
-            </a>
-          </GooglePlusShareButton>
         </div>
       </section>);
     }
