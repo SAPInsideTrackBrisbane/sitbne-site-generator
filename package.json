@@ -73,7 +73,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://${GH_PAGES_TOKEN}@github.com/SAPInsideTrackBrisbane/SAPInsideTrackBrisbane.github.io.git",
+    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -u 'github-actions-bot <support+actions@github.com>' -r https://${GH_PAGES_TOKEN}@github.com/SAPInsideTrackBrisbane/SAPInsideTrackBrisbane.github.io.git" ,
     "serve": "gatsby serve",
     "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
