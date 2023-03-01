@@ -26,3 +26,5 @@ jobs:
           npm install
       - name: Deploy
         run: npm run deploy:ci
+        env:
+          GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
