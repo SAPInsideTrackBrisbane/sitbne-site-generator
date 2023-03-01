@@ -11,10 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Config
-        run: |
-          git config --global user.email "sitbne@gmail.com"
-          git config --global user.name "sitbne"
       - name: Checkout
         uses: actions/checkout@v2
       - name: Set Node Version
@@ -24,7 +20,11 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
+      - name: Build
+        run: gatsby build --prefix-paths
       - name: Deploy
-        run: npm run deploy:ci
+        run: |
+          git remote set-url origin https://${GH_PAGES_TOKEN}@github.com/SAPInsideTrackBrisbane/SAPInsideTrackBrisbane.github.io.git
+          npx gh-pages -d public -u "github-actions-bot <support+actions@github.com>"
         env:
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
