@@ -1,7 +1,3 @@
-<div align="center">
-    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
-</div>
-
 # SitBNE Site Generator
 A site generator for SITBNE built using the Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
 
