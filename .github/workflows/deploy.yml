@@ -25,6 +25,6 @@ jobs:
       - name: Deploy
         run: |
           git remote set-url origin https://git:${GH_PAGES_TOKEN}@github.com/sitbne/sitbne.github.io.git
-          npx gh-pages -d public -u "github-actions-bot <support+actions@github.com>"
+          npx gh-pages -d public -u "github-actions-bot <support+actions@github.com>" -b master
         env:
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
