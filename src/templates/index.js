@@ -1,21 +1,23 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Helmet from "react-helmet";
+
 import { Link } from "react-scroll";
-import PostListing from "../components/PostListing/PostListing";
-import SEO from "../components/SEO/SEO";
+
+import BlogLogo from "../components/BlogLogo/BlogLogo";
 import config from "../../data/SiteConfig";
 import Drawer from "../components/Drawer/Drawer";
-import Navigation from "../components/Navigation/Navigation";
-import SiteWrapper from "../components/SiteWrapper/SiteWrapper";
 import Footer from "../components/Footer/Footer";
+import Helmet from "react-helmet";
 import MainHeader from "../components/MainHeader/MainHeader";
 import MainNav from "../components/MainNav/MainNav";
-import BlogLogo from "../components/BlogLogo/BlogLogo";
 import MenuButton from "../components/MenuButton/MenuButton";
-import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
 import PaginatedContent from "../components/PaginatedContent/PaginatedContent";
+import PageTitle from "../components/PageTitle/PageTitle";
+import PostListing from "../components/PostListing/PostListing";
+import Navigation from "../components/Navigation/Navigation";
+import SEO from "../components/SEO/SEO";
+import SiteWrapper from "../components/SiteWrapper/SiteWrapper";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 import Layout from "../components/layout";
 class IndexTemplate extends React.Component {
