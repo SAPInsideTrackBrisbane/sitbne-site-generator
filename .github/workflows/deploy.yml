@@ -24,7 +24,7 @@ jobs:
         run: npm run build:pp
       - name: Deploy
         run: |
-          git remote set-url origin https://${GH_PAGES_TOKEN}@github.com/sitbne/sitbne.github.io.git
+          git remote set-url origin https://git:${GH_PAGES_TOKEN}@github.com/sitbne/sitbne.github.io.git
           npx gh-pages -d public -u "github-actions-bot <support+actions@github.com>"
         env:
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
