@@ -8,8 +8,8 @@ module.exports = {
     "/logos/home.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://sitbne.github.io", // sitbneDomain of your website without pathPrefix.
   // pathPrefix: "io", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
-  siteDescription: "A local grassroots community event organised where SCN members come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
-  siteCover: "/images/Brisbane-Logo-Very-Plain.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+  siteDescription: "A local grassroots community event organised where SAP Community members come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
+  siteCover: "/images/MainPageBackground.png", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
     siteNavigation: true, // If navigation is enabled the Menu button will be visible
     //siteBanner:"Register now for our upcoming event on February 19th", // Site Banner 
     //siteBannerUrl: "/february-2020", //Path to page to navigate from Site Banner
@@ -33,7 +33,7 @@ module.exports = {
     },
     {
       label: "Latest Event Details",
-      url: "/may-2020",
+      url: "/june-2023",
       iconClassName: "fa fa-microphone"
     }
   ],
