@@ -21,7 +21,7 @@ jobs:
         run: |
           npm install
       - name: Build
-        run: npm run build:pp
+        run: npm run build
       - name: Deploy
         run: |
           git remote set-url origin https://git:${GH_PAGES_TOKEN}@github.com/sitbne/sitbne.github.io.git
