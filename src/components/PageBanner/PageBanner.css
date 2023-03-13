@@ -6,15 +6,15 @@
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 36, 107);
 }
 
 .no-cover .page-banner {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .page-banner:hover {
-    color: rgba(71, 70, 143, 0.8);
+    color: rgba(0, 60, 185, 1);
 }
 
 /* Add subtle load-in animation for content on the home page */
