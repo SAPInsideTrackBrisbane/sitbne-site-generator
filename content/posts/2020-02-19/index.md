@@ -1,6 +1,6 @@
 ---
 title: "February 2020"
-cover: "/images/Brisbane-Logo-Wheel-City.jpg"
+cover: "/images/post-covers/Brisbane-Logo-Wheel-City.jpg"
 author: "katan"
 date: "2020-02-19"
 category: "tech"

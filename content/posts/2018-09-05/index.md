@@ -1,6 +1,6 @@
 ---
 title: "September 2018"
-cover: "/images/Brisbane-Logo-Wheel-City.jpg"
+cover: "/images/post-covers/Brisbane-Logo-Wheel-City.jpg"
 author: "katan"
 date: "2018-09-05"
 category: "tech"

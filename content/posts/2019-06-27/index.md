@@ -1,6 +1,6 @@
 ---
 title: "June 2019"
-cover: "/images/Brisbane-Logo-Wheel-City.jpg"
+cover: "/images/post-covers/Brisbane-Logo-Wheel-City.jpg"
 author: "katan"
 date: "2019-06-27"
 category: "tech"
