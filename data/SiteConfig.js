@@ -17,7 +17,7 @@ module.exports = {
   siteRssAuthor: "", //"Casper User", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
   sitePaginationLimit: 5, // The max number of posts per page.
-  googleAnalyticsID: "UA-157133488-1", // GA tracking ID.
+  // googleAnalyticsID: "UA-157133488-1", // GA tracking ID.
   siteSocialUrls: [
     "https://github.com/SAPInsideTrackBrisbane",
     "https://twitter.com/_sitbne",
