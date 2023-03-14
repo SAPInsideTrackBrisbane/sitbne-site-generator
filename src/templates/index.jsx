@@ -80,8 +80,8 @@ class IndexTemplate extends React.Component {
                     onClick={this.handleOnClick}
                   />
                 </MainNav>
-                <div className="vertical">
-                  <div className="main-header-content inner">
+                <div className="vertical" style={{display:"flex", "flexDirection":"column" }}>
+                  <div className="main-header-content inner" >
                     <PageTitle text={config.siteTitle} />
                                     <PageDescription text={config.siteDescription} />
                                     <PageBanner text={config.siteBanner} url={config.siteBannerUrl} />

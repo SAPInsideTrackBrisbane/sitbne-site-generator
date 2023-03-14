@@ -8,10 +8,10 @@ module.exports = {
   siteUrl: "https://sitbne.github.io", // sitbneDomain of your website without pathPrefix.
   // pathPrefix: "io", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "A local grassroots community event organised where SAP Community members come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
+    "A local grassroots community event organised where SAP community come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
   siteCover: "/images/MainPageBackgroundGrey.png", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
-  siteBanner: "It's been a long time coming, but we're pleased to announce we will be back in June", // Site Banner
+  siteBanner: "Back June 2023", // Site Banner
   siteBannerUrl: "/june-2023/", //Path to page to navigate from Site Banner
   siteRss: "", //"/rss.xml", // Path to the RSS file.
   siteRssAuthor: "", //"Casper User", // The author name used in the RSS file
@@ -20,7 +20,7 @@ module.exports = {
   googleAnalyticsID: "UA-157133488-1", // GA tracking ID.
   siteSocialUrls: [
     "https://github.com/SAPInsideTrackBrisbane",
-    "https://twitter.com/search?q=sitbne",
+    "https://twitter.com/_sitbne",
     "mailto:sitbne@gmail.com"
   ],
   postDefaultCategoryID: "Tech", // Default category for posts.
