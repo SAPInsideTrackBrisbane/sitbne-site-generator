@@ -53,12 +53,12 @@ module.exports = {
         ]
       }
     },
-    {
+    /*{
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: config.googleAnalyticsID
       }
-    },
+    },*/
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
