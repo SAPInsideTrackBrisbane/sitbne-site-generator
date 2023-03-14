@@ -1,5 +1,5 @@
-# SitBNE Site Generator
-A site generator for SITBNE built using the Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
+# SITBNE Site Generator
+A site generator for SITBNE built using the [Gatsby](https://www.gatsbyjs.com/) v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
 
 ![Screenshot](docs/sitbne-screenshot.png)
 
@@ -100,7 +100,7 @@ Posts are authored using Markdown and include some optional YAML frontmatter dat
 
 ### Authors
 
-Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blodAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It IS possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
+Each post can reference the author of the post, if the author is not set the default author will be used; which is controlled by the _blogAuthorId_ property in _SiteConfig.js_.  All authors, including the default author (aka _blodAuthorId_) must have an author JSON file.  These JSON files MUST be stored in a folder names ```authors```, for Gatsby to parse them correctly.  The location of this ```authors``` folder can be controlled by the _blogAuthorDir_ property in _SiteConfig.js_. It is possible to have the ```authors``` folder inside the  _blogPostDir_ folder.
 
 ### SITBNE Content
 
