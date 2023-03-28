@@ -24,7 +24,7 @@ talk us though what we need to know to help us get started.  For more details yo
 ### ( Jason Lante )
 Since 7.40, ABAP has been significantly improved to make your code more efficient. Jason's talk will help you learn how to write simplified ABAP code leveraging techniques from other programming languages.
 
-You can access the teched content "DEV262 – Evolution of the ABAP Programming Language - Karsten Bohlmann, Holger Janz & Thomas Jung" that Jason references in his talk <a href="/docs/2018-09-05/E3_Presentation_Evolution_of_the_ABAP_Programming_Language.pdf" download>here</a>
+You can access the teched content "DEV262 – Evolution of the ABAP Programming Language - Karsten Bohlmann, Holger Janz & Thomas Jung" that Jason references in his talk <a href="https://github.com/SAPInsideTrackBrisbane/website-posts-static/raw/main/posts/2018-09-05/docs/E3_Presentation_Evolution_of_the_ABAP_Programming_Language.pdf" download>here</a>
 
 Another excellent reference are Horst Keller's blog posts with the Language News for each ABAP release.  Jason refers specifically to this classic post for the [ABAP Language News for Release 7.4](https://blogs.sap.com/2013/07/22/abap-news-for-release-740/). 
 
