@@ -32,7 +32,7 @@ npm run develop # or gatsby develop
      siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
      siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
      pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
-     siteDescription: "A Casper themed GatsbyJS stater based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
+     siteDescription: "A Casper themed GatsbyJS starter based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
      siteCover: "/images/blog-cover.jpg", // Optional, the cover image used in header for home page.
      siteNavigation: true, // If navigation is enabled the Menu button will be visible
      siteBanner:"Register now for our upcoming event on February 27th", // Site Banner 

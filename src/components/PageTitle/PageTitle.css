@@ -6,7 +6,8 @@
     font-weight: 1000;
     font-family: "Open Sans", sans-serif;
     
-    -webkit-text-fill-color: rgb(0, 0, 0); /* Will override color (regardless of order) */
+    -webkit-text-fill-color: rgb(255, 255, 255); /* Will override color (regardless of order) */
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 
     opacity: 0;
     
