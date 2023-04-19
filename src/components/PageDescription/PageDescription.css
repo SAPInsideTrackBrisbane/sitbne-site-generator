@@ -6,7 +6,8 @@
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
-    -webkit-text-fill-color: #020202; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
 .no-cover .page-description {
@@ -39,6 +40,7 @@
 @media only screen and (max-width: 500px) {
     .page-description {
         font-size: 1.6rem;
+        display: none;
     }
 
     .paged .main-header .page-description {

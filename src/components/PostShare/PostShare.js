@@ -1,15 +1,16 @@
 import React from "react";
 //import { ShareButtons } from "react-share";
-import { FacebookShareButton, GooglePlusShareButton,TwitterShareButton } from "react-share";
+import { FacebookShareButton, TwitterShareButton } from "react-share";
 import "./PostShare.css";
 const formatSiteUrl = (siteUrl, pathPrefix, path) => siteUrl + (pathPrefix === "/" ? "" : pathPrefix) + path;
-// const getCover = post => {
-//   const { cover } = post;
-//   if (cover && cover.childImageSharp && cover.childImageSharp.original) {
-//     return cover.childImageSharp.original.src;
-//   }
-//   return "";
-// };
+/*
+ const getCover = post => {
+   const { cover } = post;
+   if (cover && cover.childImageSharp && cover.childImageSharp.original) {
+     return cover.childImageSharp.original.src;
+   }
+   return "";
+ };*/
 class PostShare extends React.Component {
     render() {
         const { postNode, postPath, config } = this.props;
