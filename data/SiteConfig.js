@@ -2,6 +2,7 @@ module.exports = {
   blogPostDir: "posts", // The name of directory that contains your posts.
   blogAuthorDir: "authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "katan", // The default and fallback author ID used for blog posts without a defined author.
+  userTwitter:"@_sitbne",
   siteTitle: "SAP Inside Track Brisbane", // Site title.
   siteTitleAlt: "SAP Inside Track Brisbane", // Alternative site title for SEO.
   siteLogo: "/logos/home.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
