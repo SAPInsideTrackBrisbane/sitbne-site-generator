@@ -7,6 +7,7 @@ category: "tech"
 tags:
     - BTP
     - Terraform
+    - IaC
     - UI5
     - WDI5
 ---
@@ -19,16 +20,29 @@ Volker has been a prominent member of the SAP Community for many years. You woul
 
 Mauricio is a very talented individual, who only recently relocated from Sydney to Brisbane.  He's written an awesome blog post on [how to automate SAP BTP provisioning and configuration with Terraform!](https://blogs.sap.com/2023/01/23/automating-sap-btp-setup-with-terraform-infrastructure-as-code-for-cloud-foundry-and-kyma-environments/), which I highly advocate you read to learn more about Infrastucture as Code.  
 
-We are just finalising the final details of their talks and once able to provide more details, we'll push out updates via this post and via our new [Twitter](https://twitter.com/_sitbne) account. 
+Note this event is ticketed (See below for details)
+
+
+## Session Overview
+
+### Session 1: TBD
+
+#### Volker Buzek
+We are just finalising the final details of his talk and once able to provide more details, we'll push out updates via this post and via our new [Twitter](https://twitter.com/_sitbne) account. 
+
+### Session 2: Automating SAP BTP setup with Terraform
+
+#### Mauricio Lauffer
+Tired of manually setting up SAP BTP Sub Accounts? With Terraform, you can easily manage & automate your SAP BTP setup for faster & more reliable deployments.  Join us to learn what is Terraform, Infrastructure as Code (IaC) and how it can help you
 
 ## Tickets
-We'll have a link up for tickets soon. (Note this event will be strictly limited to 50 people & it's first in best dressed)  
+Tickets for the event are now available from [Eventbrite](https://www.eventbrite.com/e/sap-inside-track-brisbane-june-2023-tickets-80639929199). (Note this event will be strictly limited to 50 people & it's first in best dressed, so to avoid disappoinment & book now)  
 
 ## Location
 In another change to previous events, this event will be hosted in the Hudson office at the The Annex, Level 6/12 Creek Street, Brisbane, QLD, 4000 
 
 ## Sponsors
+Huge huge thanks to Enrico Manai and the fantasic team at Hudson for hosting us
 
 <img src="/images/sponsor logos/Hudson.jpg" alt="Hudson" width="200"/>
 
-Huge huge thanks to Enrico Manai and the fantasic team at Hudson for hosting us

@@ -12,7 +12,7 @@ module.exports = {
     "A local grassroots community event organised where SAP community come together to share knowledge, expertise and network", // Website description used for RSS feeds/meta description tag.
   siteCover: "/images/MainPageBackgroundGrey.png", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
-  siteBanner: "Back June 2023", // Site Banner
+  siteBanner: "Back June 2023 - Book Now", // Site Banner
   siteBannerUrl: "/june-2023/", //Path to page to navigate from Site Banner
   siteRss: "", //"/rss.xml", // Path to the RSS file.
   siteRssAuthor: "", //"Casper User", // The author name used in the RSS file
