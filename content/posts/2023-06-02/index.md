@@ -25,10 +25,10 @@ Note this event is ticketed (See below for details)
 
 ## Session Overview
 
-### Session 1: TBD
+### Session 1: SAPUI5 - Zero to Hero
 
 #### Volker Buzek
-We are just finalising the final details of his talk and once able to provide more details, we'll push out updates via this post and via our new [Twitter](https://twitter.com/_sitbne) account. 
+Time to skyrocket your SAPUI5 development skills! Dive into the UI5 tooling and CI/CD for streamlined processes and explore the crucial role of unit testing in building robust applications. Perfect for developers eager to elevate their SAPUI5 expertise. Don't miss out—become an SAPUI5 hero today! 
 
 ### Session 2: Automating SAP BTP setup with Terraform
 
