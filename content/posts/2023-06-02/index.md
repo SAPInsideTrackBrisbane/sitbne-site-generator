@@ -29,7 +29,6 @@ Note this event is ticketed ([See below](/june-2023/#tickets) for details)
 
 #### Volker Buzek
 Time to skyrocket your SAPUI5 development skills! Dive into the UI5 tooling and CI/CD for streamlined processes and explore the crucial role of unit testing in building robust applications. Perfect for developers eager to elevate their SAPUI5 expertise. Don't miss out—become an SAPUI5 hero today! 
-Copycopy code to clipboard
 ![](/images/Volker.jpg)
 
 
