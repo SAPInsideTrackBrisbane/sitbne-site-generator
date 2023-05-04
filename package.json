@@ -23,6 +23,7 @@
     "gatsby-remark-autolink-headers": "^6.7.0",
     "gatsby-remark-copy-linked-files": "^6.7.0",
     "gatsby-remark-images": "^7.7.0",
+    "gatsby-remark-line-breaks": "^1.0.0",
     "gatsby-remark-prismjs": "^7.7.0",
     "gatsby-remark-responsive-iframe": "^6.7.0",
     "gatsby-source-filesystem": "^5.7.0",
@@ -33,7 +34,6 @@
     "moment": "^2.24.0",
     "prismjs": "^1.19.0",
     "react": "^18.0.0",
-    
     "react-dom": "^18.0.0",
     "react-gravatar": "^2.6.3",
     "react-helmet": "^6.1.0",
@@ -73,7 +73,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -u 'github-actions-bot <support+actions@github.com>' -r https://${GH_PAGES_TOKEN}@github.com/sitbne/sitbne.github.io.git" ,
+    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -u 'github-actions-bot <support+actions@github.com>' -r https://${GH_PAGES_TOKEN}@github.com/sitbne/sitbne.github.io.git",
     "serve": "gatsby serve",
     "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
