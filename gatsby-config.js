@@ -87,8 +87,8 @@ module.exports = {
             type: "image/png"
           },
           {
-            src: "/logos/logo-512x512.png",
-            sizes: "512x512",
+            src: "/logos/logo-310x310.png",
+            sizes: "310x310",
             type: "image/png"
           }
         ]
