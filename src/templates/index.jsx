@@ -83,8 +83,8 @@ class IndexTemplate extends React.Component {
                 <div className="vertical" style={{display:"flex", "flexDirection":"column" }}>
                   <div className="main-header-content inner" >
                     <PageTitle text={config.siteTitle} />
-                                    <PageDescription text={config.siteDescription} />
-                                    <PageBanner text={config.siteBanner} url={config.siteBannerUrl} />
+                        <PageDescription text={config.siteDescription} />
+                        <PageBanner text={config.siteBanner} url={config.siteBannerUrl} />
                     <SocialMediaIcons
                       urls={config.siteSocialUrls}
                       color="currentColor"

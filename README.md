@@ -1,6 +1,10 @@
 # SITBNE Site Generator
 A site generator for SITBNE built using the [Gatsby](https://www.gatsbyjs.com/) v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
 
+
+[![Issue Count](https://img.shields.io/badge/v18.18.0-green)](https://nodejs.org/en/blog/release/v18.8.0)
+[![Issue Count](https://img.shields.io/github/issues/SAPInsideTrackBrisbane/sitbne-site-generator)](https://img.shields.io/github/issues/SAPInsideTrackBrisbane/sitbne-site-generator)
+
 ![Screenshot](docs/sitbne-screenshot.png)
 
 Please feel free to fork this and build out your own Inside Track Website.  Our site is hosted for free using GitHub pages and can be found at [https://sitbne.github.io/](https://sitbne.github.io/).
@@ -30,7 +34,7 @@ npm run develop # or gatsby develop
      siteTitle: "Gatsby Casper Starter", // Site title.
      siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
      siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-     siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
+     siteUrl: "https://sitbne.github.io", // Domain of your website without pathPrefix.
      pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
      siteDescription: "A Casper themed GatsbyJS starter based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
      siteCover: "/images/blog-cover.jpg", // Optional, the cover image used in header for home page.

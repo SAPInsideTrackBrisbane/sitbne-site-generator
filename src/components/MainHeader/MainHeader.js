@@ -9,7 +9,7 @@ class MainHeader extends React.Component {
         });
         const getStyle = () => {
             if (cover) {
-                return { backgroundImage: `url("${cover}")`, opacity: 0.75 };
+                return { backgroundImage: `url("${cover}")`, opacity: 1.00 };
             }
             return null;
         };

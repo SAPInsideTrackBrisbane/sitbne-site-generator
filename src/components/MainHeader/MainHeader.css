@@ -6,8 +6,8 @@
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
-    background-size: cover;
+    background: #efab00 no-repeat center center;
+    background-size: contain;
     overflow: hidden;
 }
 
