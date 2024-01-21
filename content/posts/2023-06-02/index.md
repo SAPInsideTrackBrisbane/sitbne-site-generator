@@ -38,8 +38,15 @@ Time to skyrocket your SAPUI5 development skills! Dive into the UI5 tooling and 
 Tired of manually setting up SAP BTP Sub Accounts? With Terraform, you can easily manage & automate your SAP BTP setup for faster & more reliable deployments.  Join us to learn what is Terraform, Infrastructure as Code (IaC) and how it can help you
 ![](/images/Mauricio.jpg)
 
-## Tickets
-Tickets for the event are now available from [Eventbrite](https://www.eventbrite.com/e/sap-inside-track-brisbane-june-2023-tickets-80639929199). (Note this event will be strictly limited to 50 people & it's first in best dressed, so to avoid disappoinment book now!!)  
+![](/images/talk-time.jpg)
+
+![](/images/enrico.jpg)
+
+![](/images/volker-talk.jpg)
+
+![](/images/mauricio-talk.jpg)
+
+![](/images/colleen.jpg)
 
 ## Location
 In another change to previous events, this event will be hosted in the Hudson office at the The Annex, Level 6/12 Creek Street, Brisbane, QLD, 4000
