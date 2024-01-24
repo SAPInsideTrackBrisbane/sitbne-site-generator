@@ -43,7 +43,7 @@
 @media only screen and (max-width: 500px) {
     .page-title {
         font-size: 3rem;
-        text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+        
     }
 }
 
