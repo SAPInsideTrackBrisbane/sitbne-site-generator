@@ -1,6 +1,6 @@
 ---
 title: "February 2018"
-cover: "/images/post-covers/Brisbane-Logo-Wheel-City.jpg"
+cover: "/images/Brisbane-Logo-Page-Banner.png"
 author: "katan"
 date: "2018-02-22"
 category: "tech"

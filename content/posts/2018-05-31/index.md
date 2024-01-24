@@ -1,6 +1,6 @@
 ---
 title: "May 2018"
-cover: "/images/post-covers/Brisbane-Logo-Wheel-City.jpg"
+cover: "/images/Brisbane-Logo-Page-Banner.png"
 author: "jorg"
 date: "2018-05-31"
 category: "tech"

@@ -1,6 +1,6 @@
 ---
 title: "June 2023"
-cover: "/images/post-covers/Brisbane-Logo-City.png"
+cover: "/images/Brisbane-Logo-Page-Banner.png"
 author: "katan"
 date: "2023-03-02"
 category: "tech"
