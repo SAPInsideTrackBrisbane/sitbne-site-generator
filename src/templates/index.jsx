@@ -81,7 +81,7 @@ class IndexTemplate extends React.Component {
                   />
                 </MainNav>
                 <div className="vertical" style={{display:"flex", "flexDirection":"column" }}>
-                  <div className="main-header-content inner" >
+                  <div className="main-header-content inner">
                     <PageTitle text={config.siteTitle} />
                         <PageDescription text={config.siteDescription} />
                         <PageBanner text={config.siteBanner} url={config.siteBannerUrl} />

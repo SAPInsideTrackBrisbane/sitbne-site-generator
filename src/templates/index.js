@@ -67,7 +67,7 @@ class IndexTemplate extends React.Component {
                   <MenuButton navigation={config.siteNavigation} onClick={this.handleOnClick}/>
                 </MainNav>
                 <div className="vertical">
-                  <div className="main-header-content inner">
+                  <div className="main-header-content inner" style={{top: '50%', left: '50%', '-ms-transform': 'translate(-50%, -50%)', 'transform': 'translate(-50%, -50%)'}}>
                     <PageTitle text={config.siteTitle}/>
                     <PageDescription text={config.siteDescription}/>
                     <SocialMediaIcons urls={config.siteSocialUrls} color="currentColor"/>
