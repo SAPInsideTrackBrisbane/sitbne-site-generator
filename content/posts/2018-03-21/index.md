@@ -1,6 +1,6 @@
 ---
 title: "Keen to Speak.."
-cover: "/images/post-covers/Brisbane-Logo-Wheel-City.jpg"
+cover: "/images/Brisbane-Logo-Page-Banner.png"
 author: "katan"
 category: "general"
 date: "2017-03-17"

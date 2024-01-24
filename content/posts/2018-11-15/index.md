@@ -1,6 +1,6 @@
 ---
 title: "November 2018"
-cover: "/images/Brisbane-Logo-Wheel-City.jpg"
+cover: "/images/Brisbane-Logo-Page-Banner.png"
 author: "katan"
 date: "2018-11-15"
 category: "tech"
