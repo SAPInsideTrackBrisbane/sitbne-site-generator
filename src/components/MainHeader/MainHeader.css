@@ -11,6 +11,10 @@
     overflow: hidden;
 }
 
+.main-header-content {
+    top: 10%;
+}
+
 .main-header .inner {
     width: 80%;
 }
