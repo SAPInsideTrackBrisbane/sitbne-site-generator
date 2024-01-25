@@ -7,10 +7,8 @@
     font-family: "Open Sans", sans-serif;
     
     -webkit-text-fill-color: rgb(255, 255, 255); /* Will override color (regardless of order) */
-    
-
     opacity: 0;
-    
+    padding-top: 100px;
 }
 
 .no-cover .page-title {
@@ -33,6 +31,7 @@
     .page-title {
         font-size: 4rem;
         letter-spacing: -1px;
+        padding-top: 0px;
     }
 }
 
@@ -43,7 +42,7 @@
 @media only screen and (max-width: 500px) {
     .page-title {
         font-size: 3rem;
-        
+        padding-top: 0px;
     }
 }
 
