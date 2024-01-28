@@ -32,7 +32,7 @@ export default function MainHeader({ children }) {
   const resize = () => {
     const canvas = canvasRef.current
     canvas.width = window.innerWidth + 1000;
-    canvas.height = 500;
+    canvas.height = 600;
     canvas.style = `position: absolute; left: ${-50 / 2}px; bottom: 0px`;
   };
   
