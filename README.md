@@ -7,7 +7,7 @@ A site generator for SITBNE built using the [Gatsby](https://www.gatsbyjs.com/) 
 
 ![Screenshot](docs/sitbne-screenshot.png)
 
-Please feel free to fork this and build out your own Inside Track Website.  Our site is hosted for free using GitHub pages and can be found at [https://sitbne.github.io/](https://sitbne.github.io/).
+Please feel free to fork this and build your own Inside Track Website.  Our site is hosted for free using GitHub pages and can be found at [https://sitbne.github.io/](https://sitbne.github.io/).
 
 ## Getting Started
 This repo was built using Gatsby CLI version: 5.7.0 and Node version 18.14.2
@@ -17,9 +17,9 @@ Clone the repo or a fork of the repo and install it manually.
 ```sh
 git clone https://github.com/SAPInsideTrackBrisbane/sitbne-site-generator.git <YourProjectName> # Clone the project
 cd <YourProjectname>
-rm -rf .git # Optional, you can leave the .git history for future rebasing
+rm -rf .git # !!!Optional step!!! if you are creating your own Inside Track Website that is not SITBNE
 npm install # or yarn install
-npm run develop # or gatsby develop
+npm run develop # or 'gatsby develop'
 ```
 
 ## Configuration
@@ -34,6 +34,7 @@ npm run develop # or gatsby develop
      siteTitle: "Gatsby Casper Starter", // Site title.
      siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
      siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+     seoImage: "/images/Brisbane-Logo-Page-Banner.png", // Default image used for SEO (i.e. for anything other than posts)
      siteUrl: "https://sitbne.github.io", // Domain of your website without pathPrefix.
      pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
      siteDescription: "A Casper themed GatsbyJS starter based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
