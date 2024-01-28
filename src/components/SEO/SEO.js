@@ -20,7 +20,7 @@ class SEO extends Component {
         else {
             title = config.siteTitle;
             description = config.siteDescription;
-            image = config.siteLogo;
+            image = config.seoImage; 
         }
         const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
         image = config.siteUrl + realPrefix + image;
