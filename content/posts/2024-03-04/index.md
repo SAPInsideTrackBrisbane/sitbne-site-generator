@@ -13,7 +13,7 @@ This session we'll have two great talks lined up from two great speakers.
 
 First up will be Liam Mischewski from SAP talking about SAP Build Code. Liam has a long track history in SAP & currently resides in the Custom Advisary Team as an Innovation Architect. You may know him from some of the tech hubs & code jams run last year.
 
-Our second speaker is just in the process of being finalised and once confirmed we'll be releasing the details to you.
+Our second speaker is Lochner Louw from Dalrae Solutions. Equally Lochner has an impressive track record in SAP architecture & development.  He's got a depth of experience on BTP and CAP development & a keen eye to help optimise your application processes.
 
 ## Session Overview
 
@@ -22,10 +22,10 @@ Our second speaker is just in the process of being finalised and once confirmed 
 #### Liam Mischewski
 Watch as Liam takes you on journey & walks you through how to power up your development experience with SAP Build Code.  He'll showcase , generative AI-based code development with Joule copilot, optimized for Java and JavaScript application development, providing a turn-key environment for coding, testing, integrations, and application lifecycle management.   
 
-### Session 2: TBC
+### Session 2: Integration Approaches with CAP on BTP
 
-#### TBC
-We've got too many ideas & we're just finalising on one and will get an update out ASAP.  Rest assured it's going to be something cool...
+#### Lochner Louw
+As you know BTP has a variety of services available, so navigating through this can be daunting when you start off. To help guide you, Lochner is going to be walking through some of the integration approaches available for CAP applications & providing insights into some of the various CAP plugins available (including community ones) & how you could integrate them into your CAP apps.  
 
 ## Location
 In another change to previous events, this event will be hosted in the exclaim IT office at Level 8/316 Adelaide Street, Brisbane, QLD, 4000
