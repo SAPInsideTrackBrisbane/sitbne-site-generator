@@ -115,7 +115,7 @@ export const pageQuery = graphql`
   query AuthorPage($author: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { author: { eq: $author } } }
     ) {
       totalCount

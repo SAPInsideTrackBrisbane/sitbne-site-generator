@@ -96,45 +96,4 @@ class AuthorTemplate extends React.Component {
       </Layout>);
     }
 }
-/* eslint no-undef: "off" */
-/*export const pageQuery = graphql `
-  query AuthorPage2($author: String) {
-    allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { author: { eq: $author } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          fields {
-            slug
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-            author
-          }
-        }
-      }
-    }
-    allAuthorsJson(filter: { uid: { eq: $author } }) {
-      edges {
-        node {
-          uid
-          name
-          image
-          url
-          bio
-          location
-          socialUrls
-        }
-      }
-    }
-  }
-`;*/
 export default AuthorTemplate;

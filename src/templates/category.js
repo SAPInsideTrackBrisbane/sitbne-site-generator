@@ -17,43 +17,4 @@ class CategoryTemplate extends React.Component {
       </Layout>);
     }
 }
-/* eslint no-undef: "off" */
-/*export const pageQuery = graphql `
-  query CategoryPage2($category: String) {
-    allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { eq: $category } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          fields {
-            slug
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-          }
-        }
-      }
-    }
-    # authors
-    authors: allAuthorsJson {
-      edges {
-        node {
-          uid
-          name
-          image
-          url
-          bio
-        }
-      }
-    }
-  }
-`;*/
 export default CategoryTemplate;
