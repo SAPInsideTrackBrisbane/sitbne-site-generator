@@ -79,43 +79,4 @@ class TagTemplate extends React.Component {
       </Layout>);
     }
 }
-/* eslint no-undef: "off" */
-/*export const pageQuery = graphql `
-  query TagPage2($tag: String) {
-    allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          fields {
-            slug
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-          }
-        }
-      }
-    }
-    # authors
-    authors: allAuthorsJson {
-      edges {
-        node {
-          uid
-          name
-          image
-          url
-          bio
-        }
-      }
-    }
-  }
-`;*/
 export default TagTemplate;
