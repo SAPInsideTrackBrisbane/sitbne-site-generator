@@ -1,0 +1,12 @@
+{
+  "uid": "mauricio",
+  "name": "Mauricio Lauffer",
+  "image": "/images/authors/Mauricio.jpg",
+  "location": "Brisbane, Australia",
+  "bio": "SAP Cloud Architect | BTP | ABAP | HANA | Fiori | ui5 | AWS",
+  "socialUrls": [
+    "https://github.com/mauriciolauffer",
+    "https://twitter.com/mauriciolauffer",
+    "https://www.linkedin.com/in/mauriciolauffer/"
+  ]
+}

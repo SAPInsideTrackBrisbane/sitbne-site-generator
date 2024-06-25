@@ -35,7 +35,7 @@ module.exports = {
     },
     {
       label: "Latest Event Details",
-      url: "/march-2024",
+      url: "/july-2024",
       iconClassName: "fa fa-microphone"
     }
   ],
