@@ -15,8 +15,7 @@ tags:
 
 In our day to day conversations with various members of the community, we find we're constantly discussing the future direction of SAP Development.  
 
-The topics vary from things like:
-
+Topics vary from things like:
 - Should I learn CAP?
 - What's happening to all of my ABAP when I move to the cloud?
 - What does cloud really help to do, that I can't already do using ABAP?
@@ -26,29 +25,38 @@ The topics vary from things like:
 - Isn't cloud really expensive?  
 - As a basis consultant what will I do now that devs can manage and deploy infrastructure using code
 
-We've realised that these are all really important discussions that many in the community want to discuss.  
+We've realised that these are all really important discussions that many in the community want to discuss, but don't always find the right opportunity to do so.  
 
-It's important to have an open forum, to ask questions and share opinions for all the things that we are thinking about in terms of the future state of SAP Development.  
+We think it's important to have access to an open forum, to ask questions and share opinions for all the things that we are thinking about in terms of the future state of SAP Development.  
 
 ## Session Overview
-For this reason we've decided to change up the format of the event.  This session we plan to run more as an AMA (Ask Me Anything) style event.  
+For this reason we've decided to change up the format of this event.  This session we plan to run more as an AMA (Ask Me Anything) style event. However rather than asking to a specific individual, you'll be pitching to the wider group to share their thoughts and experiences.  
 
-We'll have a small panel composed of the SITBNE team & key community members, including Alex Bauer (SAP) to sit amongst you and drive the discussion.    
+### Main Session
+The SITBNE team & key community members, including [Alex Bauer](https://www.linkedin.com/in/alexba) (Head of Analytics & Insight Services SAP ANZ) will be sat down amongst you to help drive the discussion & of course provide guidance on our collective experiences.    
 
 We'd like to invite you along to grab a drink, share a slice of pizza & join us in the conversation.
 
-To keep the conversations flowing, we'd like to invite you to submit any questions/topics you'd like to discuss.  We've created an anonymous form that you can use to submit your questions/topics that we can collate before the event starts.  
+To help keep the conversations flowing & directed to things important to you, we'd also like to invite you to anonymously submit any questions/topics you'd like to discuss at the event using the form below.  It will remain avialable until 24 hours prior to the event starting.  
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcGQCL-GXG3-FgiIyt8YLHBajscI5X5T9KKghaqtj7kxmnPg/viewform?embedded=true" width="640" height="1006" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
+## 
 
-## Location
-Once again we're on the move.  This event will be hosted in the Brisbane SAP office on Level 21/140 Creek Street (Terrica Place), Brisbane, QLD, 4000
+### After Party
+For anyone still available after the event concludes, we'll head to the nearest pub  to continue the conversations.  It's Friday night after all.....
+
+## Location/Time
+The event runs from 5.00pm - 7.00pm on 12th July.  
+
+Once again we're on the move.  This event will be hosted in the Brisbane SAP office on Level 21/140 Creek Street (Terrica Place), Brisbane, QLD, 4000.  
+
+You'll need to take the lift up on the far side of the main atrium to access level 21.
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.099071509441!2d153.02498167711062!3d-27.466174876321585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a09a6ade025%3A0xe00c080068e2a88d!2sSAP%20Australia%20Pty%20Ltd%20-%20Brisbane!5e0!3m2!1sen!2sau!4v1719316200735!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ##
 
 ## Sponsors
-Huge huge thanks to Alex Bauer and the amazing team at SAP for hosting us. As always We would not be able to run these events without the fantastic support from the local Brisbane business community.
+Huge huge thanks to [Alex Bauer](https://www.linkedin.com/in/alexba) and the amazing team at SAP for hosting us. As always We would not be able to run these events without the fantastic support from the local Brisbane business community.
 
-<img src="/images/sponsor logos/sap-logo-svg.svg" alt="SAP" width="500"/>
+<img src="/images/sponsor logos/sap-logo-svg.svg" alt="SAP" width="400"/>
