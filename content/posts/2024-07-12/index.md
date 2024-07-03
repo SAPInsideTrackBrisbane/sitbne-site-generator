@@ -80,9 +80,9 @@ As always, please ensure you reserve your spot via our EventBrite page (via the 
 ## Location/Time
 The event runs from 5.00pm - 7.00pm on 12th July.  
 
-Once again we're on the move.  This event will be hosted in the Brisbane SAP office on Level 21/140 Creek Street (Terrica Place), Brisbane, QLD, 4000.  
+Once again we're on the move.  This event will be hosted in the Brisbane SAP office on Level 20/140 Creek Street (Terrica Place), Brisbane, QLD, 4000.  
 
-You'll need to take the lift up on the far side of the main atrium to access level 21.
+You'll need to take the lift up on the far side of the main atrium to access level 20.
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.099071509441!2d153.02498167711062!3d-27.466174876321585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a09a6ade025%3A0xe00c080068e2a88d!2sSAP%20Australia%20Pty%20Ltd%20-%20Brisbane!5e0!3m2!1sen!2sau!4v1719316200735!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ##
