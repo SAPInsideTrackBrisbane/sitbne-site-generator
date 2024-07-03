@@ -41,7 +41,23 @@ To help keep the conversations flowing & directed to things important to you, we
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcGQCL-GXG3-FgiIyt8YLHBajscI5X5T9KKghaqtj7kxmnPg/viewform?embedded=true" width="640" height="1006" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-## 
+<p></p>
+
+**Please note form responses will not automatically update once submit and may take up to 24 hours to reflect below**
+
+## Current Questions from Form Responses 
+- Deep dive into custom business objects and search helps
+- To know more about RAP and BAS in 3SL public cloud
+- What are BTP credits and how long do they last for?  
+- Differences in functionality between public and private cloud, e.g. for extensibility
+- How to write BaDIs in custom logic?
+- What are other companies doing to start their journey to BTP & clean core?  
+- Classic Badis vs key user extensibility
+- To know more about review booklet designer, cds views, KPIs and reports
+- What kind of changes have organisations made to help better support moving to cloud to benefit from cloud capabilities? 
+- Maturity of key user extensibility framework and roadmap
+- What are the best places to find resources to help me learn SAP Cloud technologies? 
+- Is there support available for free/low cost hands on learning?
 
 ### After Party
 For anyone still available after the event concludes, we'll head to the nearest pub  to continue the conversations.  It's Friday night after all.....
