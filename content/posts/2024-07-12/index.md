@@ -58,6 +58,12 @@ To help keep the conversations flowing & directed to things important to you, we
 - Maturity of key user extensibility framework and roadmap
 - What are the best places to find resources to help me learn SAP Cloud technologies? 
 - Is there support available for free/low cost hands on learning?
+- Where can I find reference architectures for common use cases and where have these been applied?
+- What is UI5 Web Components? Where does it fit in and its usage
+- Who is a BTP Developer? How it is different from a Full stack SAP Developer?
+- Most of the ECC systems and already migrated S/4 systems are heavily customized?  Is clean core possible?
+- Should I start using Type Script in my UI5/ Fiori Developments?
+- SAP has moved to faster innovation cycle. Learning under the hood is not possible as it consumes a lot of time. What should be a developer's learning strategy? 
 
 ### After Party
 For anyone still available after the event concludes, we'll head to the nearest pub  to continue the conversations.  It's Friday night after all.....
