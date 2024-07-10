@@ -46,6 +46,8 @@ To help keep the conversations flowing & directed to things important to you, we
 **Please note form responses will not automatically update once submit and may take up to 24 hours to reflect below**
 
 ## Current Questions from Form Responses 
+**Form responses are displayed as they were received**
+
 - Deep dive into custom business objects and search helps
 - To know more about RAP and BAS in 3SL public cloud
 - What are BTP credits and how long do they last for?  
@@ -64,6 +66,10 @@ To help keep the conversations flowing & directed to things important to you, we
 - Most of the ECC systems and already migrated S/4 systems are heavily customized?  Is clean core possible?
 - Should I start using Type Script in my UI5/ Fiori Developments?
 - SAP has moved to faster innovation cycle. Learning under the hood is not possible as it consumes a lot of time. What should be a developer's learning strategy? 
+- Should I stop working on ABAP and complete move towards BTP platform and become a BTP developer?
+- I am tired of learning continuously  for the past 4 years as the adaptation from the customer is slow. I can’t implement what I have learned. How do I keep myself motivated and have a hands on with the latest frameworks and tech.
+- What are the open source technologies I should learn ?
+- Which one should learn Kyma or cloud foundry ? 
 
 ### After Party
 For anyone still available after the event concludes, we'll head to the nearest pub  to continue the conversations.  It's Friday night after all.....
