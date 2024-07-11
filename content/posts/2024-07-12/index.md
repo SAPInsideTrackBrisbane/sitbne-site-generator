@@ -70,6 +70,7 @@ To help keep the conversations flowing & directed to things important to you, we
 - I am tired of learning continuously  for the past 4 years as the adaptation from the customer is slow. I can’t implement what I have learned. How do I keep myself motivated and have a hands on with the latest frameworks and tech.
 - What are the open source technologies I should learn ?
 - Which one should learn Kyma or cloud foundry ? 
+- Is low code no code the future of development?
 
 ### After Party
 For anyone still available after the event concludes, we'll head to the nearest pub  to continue the conversations.  It's Friday night after all.....
