@@ -37,9 +37,8 @@ The SITBNE team & key community members, including [Alex Bauer](https://www.link
 
 We'd like to invite you along to grab a drink, share a slice of pizza & join us in the conversation.
 
-To help keep the conversations flowing & directed to things important to you, we'd also like to invite you to anonymously submit any questions/topics you'd like to discuss at the event using the form below.  It will remain available until 24 hours prior to the event starting.  
+To help keep the conversations flowing & directed to things important to you, we ask attendees to anonymously submit any questions/topics they'd like to discuss at the event. The full list of responses can be found below. 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcGQCL-GXG3-FgiIyt8YLHBajscI5X5T9KKghaqtj7kxmnPg/viewform?embedded=true" width="640" height="1006" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 <p></p>
 
@@ -72,39 +71,10 @@ To help keep the conversations flowing & directed to things important to you, we
 - Which one should learn Kyma or cloud foundry ? 
 - Is low code no code the future of development?
 
-### After Party
-For anyone still available after the event concludes, we'll head to the nearest pub  to continue the conversations.  It's Friday night after all.....
+### Session Content
+You can access the slide deck <a href="https://github.com/SAPInsideTrackBrisbane/website-posts-static/blob/main/posts/2024-07-12/sitbne-slides-july-24.pdf?raw=true" download>here</a>
 
-## Tickets
-As always, please ensure you reserve your spot via our EventBrite page (via the button below), as spaces are limited 
-
-<a href="https://www.eventbrite.com.au/e/sap-inside-track-night-brisbane-july-2024-tickets-934121772367?aff=oddtdtcreator" class="button" target="_blank">Reserve Tickets</a>
-
-<style>
-.button {
-  display: inline-block;
-  padding: 8px 15px;
-  font-size: 16px;
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #5f6368;
-  border: none;
-  border-radius: 5px;
-  
-}
-
-.button:hover {background-color: #efab00}
-
-.button:active {
-  background-color: #efab00;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-</style>
+You can access the mentimeter results [here](https://www.mentimeter.com/app/presentation/n/ale6wzxgw5pevg1kxwrh27tfzes8gew3/present)
 
 ## Location/Time
 The event runs from 5.00pm - 7.00pm on 12th July.  
